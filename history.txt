@@ -1,0 +1,61 @@
+   35  ls
+   36  grep "France,PHP,2019" < wilders.csv
+   37  cat wilders.csv
+   38  ls
+   39  grep "France,PHP,2019" < wilders.csv
+   40  grep "France,PHP,20109" wilders.csv > php_france_2019.csv
+   41  cat php_france_2019.csv
+   42  ls
+   43  cat php_france_2019.csv
+   44  grep "France,PHP,2019" wilders.csv > php_france_2019.csv
+   45  cat php_france_2019.csv
+   46  grep "France,2019,PHP" wilders.csv > php_france_2019.csv
+   47  cat php_france_2019.csv
+   48  grep "JavaScript" wilders.csv < javascript_biarritz_toulouse.csv
+   49  grep "JavaScript" wilders.csv > javascript_biarritz_toulouse.csv
+   50  cat javascript_biarritz_toulouse.csv
+   51  grep "Toulouse\|Biarritz" < wilders.csv
+   52  grep "Toulouse\|Biarritz" < wilders.csv | grep "JavaScript" > javascript_biarritz_toulouse.csv
+   53  ls
+   54  cat javascript_biarritz_toulouse.csv
+   55  history
+   56  tail -n 19
+   57  history | pipe
+   58  history | tail
+   59  history | tail n-22
+   60  history | tail -n 22
+   61  history | tail -n 25
+   62  history | tail -n 28
+   63  history | tail -n 30 > history.txt
+   64  cat history.txt
+   65  grep "France,2019,PHP" wilders.csv > php_france_2019.csv | wc history.txt
+   66  cat php_france_2019.csv
+   67  grep "France,2019,PHP" wilders.csv > php_france_2019.csv | wc history.txt > php_france_2019.csv
+   68  cat php_france_2019.csv
+   69  grep "France,2019,PHP" wilders.csv | wc history.txt > php_france_2019.csv
+   70  cat php_france_2019.csv 
+   71  grep "France,2019,PHP" wilders.csv | wc php_france_2019.csv 
+   72  grep "France,2019,PHP" wilders.csv > php_france_2019.csv
+   73  cat php_france_2019.csv 
+   74  grep "France,2019,PHP" wilders.csv | wc php_france_2019.csv
+   75  grep "France,2019,PHP" wilders.csv | wc-l php_france_2019.csv
+   76  grep "France,2019,PHP" wilders.csv | wc php_france_2019.csv
+   77  grep "France,2019,PHP" wilders.csv | wc php_france_2019.csv > php_france_2019.csv 
+   78  cat php_france_2019.csv 
+   79  grep "France,2019,PHP" wilders.csv | wc php_france_2019.csv
+   80  grep "France,2019,PHP" wilders.csv | wc php_france_2019.csv 
+   81  grep "France,2019,PHP" wilders.csv > php_france_2019.csv
+   82  cat php_france_2019.csv 
+   83  grep "France,2019,PHP" wilders.csv | wc -l php_france_2019.csv
+   84  wc -l > php_france_2019.csv
+   85  grep "France,2019,PHP" wilders.csv | wc -l php_france_2019.csv
+   86  grep "France,2019,PHP" wilders.csv > php_france_2019.csv
+   87  cat php_france_2019.csv
+   88  grep "France,2019,PHP" wilders.csv | wc -l php_france_2019.csv
+   89  grep "France,2019,PHP" wilders.csv | wc -l < php_france_2019.csv
+   90  cat php_france_2019.csv 
+   91  grep "France,2019,PHP" wilders.csv | wc -l > php_france_2019.csv
+   92  cat php_france_2019.csv 
+   93  history | tail
+   94  history | tail -n 60
+   95  history | tail -n 61 > history.txt
